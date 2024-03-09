@@ -46,6 +46,30 @@ cd ../front
 npm run dev
 ```
 
+## **IMPORTANT** Users Acess
+
+There are 4 test users. I'll write their accounts, passwords and scopes.
+
+1. User with all access - Premium Plan - (can see all categories and movies):
+
+**Email:** jromero@dynostream.com
+**Password** 12345
+
+2. User with limited access - Standard Plan - (can see only some categories and movies):
+
+**Email:** sking@dynostream.com
+**Password** sking123
+
+3. User with limited access - Basic Plan - (can see only one categories and some few movies):
+
+**Email:** bgates@dynostream.com
+**Password** bgates123
+
+4. User with no access at all - Past Due Plan - (Can't access. Get automatically logged out):
+
+**Email:** emusk@dynostream.com
+**Password** emusk123
+
 You're all set! You can now access the application locally from your browser by visiting **For backend: http://localhost:1818. For frontend: http://localhost:5173**
 
 ## Cloud Access
