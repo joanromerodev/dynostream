@@ -22,12 +22,15 @@ function ContentDetails() {
     const getContent = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:1818/contents/id", {
-          params: {
-            token: auth.token,
-            id,
-          },
-        });
+        const response = await axios.get(
+          "https://dynostream.api.joanromerodev.com/contents/id",
+          {
+            params: {
+              token: auth.token,
+              id,
+            },
+          }
+        );
         if (response.data.content) {
           setContent(response.data.content);
         } else {

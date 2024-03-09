@@ -25,7 +25,7 @@ function Login() {
     try {
       setLoading(true);
       const res = await axios.post(
-        "http://localhost:1818/auth/login",
+        "https://dynostream.api.joanromerodev.com/auth/login",
         { email, password },
         {
           headers: {

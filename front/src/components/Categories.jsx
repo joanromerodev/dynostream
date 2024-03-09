@@ -50,7 +50,7 @@ function Categories() {
         if (categoriesIds.length > 0) {
           setLoading(true);
           const response = await axios.post(
-            "http://localhost:1818/categories",
+            "https://dynostream.api.joanromerodev.com/categories",
             {
               token: auth.token,
               categories: categoriesIds,

@@ -44,7 +44,7 @@ function ContentCategory() {
         if (contentsIds.length > 0) {
           setLoading(true);
           const response = await axios.post(
-            "http://localhost:1818/contents",
+            "https://dynostream.api.joanromerodev.com/contents",
             {
               token: auth.token,
               categories: contentsIds,

@@ -21,11 +21,14 @@ function Home() {
     const getAllData = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:1818/profile", {
-          params: {
-            token: auth.token,
-          },
-        });
+        const response = await axios.get(
+          "https://dynostream.api.joanromerodev.com/profile",
+          {
+            params: {
+              token: auth.token,
+            },
+          }
+        );
         const { categories, contents, plan, user } = response.data;
         if (!user.state) {
           return callErrorModal(
