@@ -72,8 +72,3 @@ There are 4 test users. I'll write their accounts, passwords and scopes.
 
 You're all set! You can now access the application locally from your browser by visiting **For backend: http://localhost:1818. For frontend: http://localhost:5173**
 
-## Cloud Access
-
-In addition to running the application locally, you can also access the cloud version of DynoStream through the following link: [DynoStream](https://dynostream.joanromerodev.com/).
-
-Enjoy the streaming experience with DynoStream!
